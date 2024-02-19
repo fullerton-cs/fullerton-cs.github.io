@@ -69,7 +69,7 @@
     <div class="title">
       <h1 class="incomingstudents-title">Welcome!</h1>
       <h2 class="incomingstudents-target">Incoming Freshmen and Transfers</h2>
-      <h2 class="incomingstudents-target">Class of 2023 | 2025</h2>
+      <h2 class="incomingstudents-target" id="incoming-students-header"></h2>
       <p class="incomingstudents-word">Congratulations on beginning your journey at CSUF & FC! We're so excited to begin a new year with you and we look forward to connecting with you!</p>
       <a href="aboutus.html"><button type="button" class="btn btn-secondary aboutus-button">About Us</button></a>
       <a href="aboutus.html#join-us"><button type="button" class="btn btn-secondary aboutus-button">Be Connected</button></a>
@@ -103,11 +103,10 @@
         <div class="col-lg-6">
           <h3 class="event-title">Upcoming Events <a href="aboutus.html#join-us"><button type="button" class="btn btn-outline-dark aboutus-button"><strong>More Info</strong></button></a></h3>
 
-          <p class="event"><Span class="date">09/02</Span> Bible Study - 12 noon - 1 pm</p>
-          <!-- <p class="event"><Span class="date">8/19</Span> Bible Study - 12 noon</p> -->
-          <p class="event"><Span class="date">09/04</Span> Welcome event @ zoom - 7:30pm</p>
-          <p class="event"><Span class="date">09/08</Span> Bible Study - 12:30pm - 1:30pm</p>
-          <p class="event"><Span class="date">09/09</Span> Bible Study - 12 noon - 1 pm</p>
+          <p class="event"><Span class="date">Mon</Span> FC Bible Study - 11:30am - 12:30pm</p>
+          <p class="event"><Span class="date">Mon</Span> College Meeting 5:30pm - 7:30pm</p>
+          <p class="event"><Span class="date">Wed</Span> CSUF Bible Study - 11:30am - 12:30pm</p>
+          <p class="event"><Span class="date">Thur</Span> College Meeting - 6:30pm - 9:00pm</p>
 
         </div>
       </div>
@@ -183,7 +182,15 @@
       <a href="https://www.facebook.com/fullertoncs/"><img class="footer-logo" src="../Images/facebook.png" alt="brand"></a>
       <a href="https://www.instagram.com/fullerton_cs/"><img class="footer-logo" src="../Images/instagram.png" alt="brand"></a>
     </section>
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var currentYear = new Date().getFullYear();
+        var classStartYear = currentYear + 2;
+        var classEndYear = currentYear + 4;
+        var headerText = "Class of " + classStartYear + " | " + classEndYear;
+        document.getElementById("incoming-students-header").innerText = headerText;
+      });
+    </script>
 </body>
 
 </html>
