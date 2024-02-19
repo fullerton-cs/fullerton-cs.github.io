@@ -1,0 +1,532 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  background: #eeeeee;
+}
+h1{
+  font-family: "Montserrat.black", sans-serif;
+  font-weight: 400;
+  padding: 30px;
+  font-size: 4rem;
+}
+
+h2{
+  font-family: "Montserrat.bold",sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+h4{
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+button{
+  margin: 0 30px 0 0px;
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* ul{
+  list-style-type: none;
+} */
+/* Index Page */
+
+
+/* welcome */
+.brand-logo{
+  width: 180px;
+}
+
+.logo-container{
+  text-align: right;
+  padding-top: 20px;
+}
+
+.menu-item{
+  color: #000;
+  font-size: 1rem;
+  width: max-content;
+  margin: 10px;
+}
+
+.menu-new{
+  border: solid 0.5px;
+  border-radius: 5%;
+}
+.menu-new:hover{
+  background-color: #838383;
+}
+
+
+.facebook{
+  background-image: url("../Images/facebook.png");
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 10px;
+}
+.instagram{
+  background-image: url("../Images/instagram.png");
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.incomingstudents-welcome{
+text-align: center;
+background-image: url("../Images/ccc.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+padding: 7% 15%;
+color: #fff;
+}
+#profile{
+  width:100%;
+  height:100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation-name: slideBg;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.title-text{
+  font-size: 4rem;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.club-logo{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.establishedyear{
+  color: #fff;
+  padding: 0 20px 20px;
+}
+
+/* home page section2 */
+#section2{
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  padding: 3% 7%;
+}
+
+.welcome-word{
+width: 80%;
+font-size: 1.5rem;
+line-height: 1.5;
+margin: auto;
+padding:20px 0 50px;
+}
+
+.club-verse{
+  font-family: "Recursive", sans-serif;
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem;
+  padding-bottom:50px;
+}
+
+.box-img{
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+.box-button-orange{
+  background-color: #ffa931;
+  color: #fff;
+  height: 30%;
+  margin: 0;
+  padding: 10px;
+}
+.box-button-orange:hover{
+  background-color: #febf63;
+}
+.box-button-blue{
+  background-color: #0f406b;
+  color: #fff;
+  height: 30%;
+  margin: 0;
+  padding: 10px;
+}
+.box-button-blue:hover{
+  background-color: #006699;
+}
+
+.info-img{
+width: 100%;
+height: 100%;
+}
+.info-button{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.box-container{
+  margin-bottom: 30px ;
+}
+
+/* video */
+#homepage-video{
+  text-align: center;
+  padding: 10% 20%;
+  background-color: #bbe1fa;
+}
+
+
+/* contact us */
+#contactus{
+  text-align: center;
+  padding: 5% 15%;
+}
+.contactus-title{
+  color: #0f4c75;
+  padding-bottom: 30px;
+}
+.contactus-a{
+  color: black;
+  font-size: 1.3rem;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 1% 15% 1%;
+  margin-top: 3%;
+
+}
+.copyright{
+  font-weight:400;
+  font-size: 1.1rem;
+  margin-right: 20px;
+}
+.footer-logo{
+  width: 30px;
+  margin-right: 20px;
+}
+
+
+
+/* About us Page */
+
+
+/* about us section */
+#about{
+  background-color: #bbe1fa;
+  padding: 3% 7%;
+  text-align: center;
+}
+.aboout-title{
+  color: #fff;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+.aboutus-description{
+  text-align: left;
+  padding-bottom: 20px;
+}
+.about-info{
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  color:black;
+  text-align: left;
+  font-weight: 600;
+}
+.whoarewe-container{
+  text-align: left;
+  padding-left: 40px;
+}
+
+#ourfaith{
+  padding: 3% 7% 0;
+}
+
+.statementoffaith{
+  padding: 20px 0 30px;
+}
+.faith-verses{
+  text-align: right;
+
+}
+
+.ourfaith-bg{
+  background-color: #eeeeee;
+}
+
+.ourfaith-box{
+  padding: 20px;
+}
+#join-us{
+  padding: 3% 7%;
+}
+
+.submit-button{
+  margin: 20px 0;
+}
+
+#follow-us{
+  padding: 3% 7%;
+  text-align: right;
+}
+.followus-sm{
+  font-family: "Montserrat.bold", sans-serif;
+  font-size: 2rem;
+  color: #003399;
+  padding: 20px;
+}
+
+.followus-logo{
+  width: 3%;
+  margin: 0 20px;
+}
+.sm-title{
+  padding: 20px;
+}
+
+
+
+/* Covid-19 Page */
+
+.covid-container{
+text-align: center;
+background-image: url("../Images/covid-img.jpeg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 5% 25%;
+margin-bottom: 30px;
+}
+.covid-title{
+color: #fff;
+padding-bottom: 30px;
+}
+.covid-word{
+font-size: 1.5rem;
+}
+.covid-video-box{
+  padding: 30px;
+}
+.covid-video-title{
+  padding: 20px 0 10px;
+}
+
+.video-iframe{
+  border: 1px solid #eee;
+  border-radius: 2px;
+  box-shadow: 0 0 0.5em #999;
+}
+
+/* Incoming Students Page */
+
+.title{
+  background-image: url("../Images/cloud1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.incomingstudents-title{
+  font-family: "Montserrat";
+    font-size: 5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.incomingstudents-target{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.incomingstudents-word{
+font-size: 1.3rem;
+width: 70%;
+line-height: 1.2;
+margin: auto;
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+.welcome-videos-container{
+  padding: 3% 7%;
+
+}
+
+.welcome-video-box{
+  padding: 30px;
+}
+
+.club-presentation{
+  text-align: center;
+  padding: 3% 7%;
+}
+
+.presentation-content{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.presentation-title{
+  padding: 30px;
+}
+
+.event-title{
+  color: #0f406b;
+  text-align: left;
+  font-weight: 600;
+}
+.event{
+  border-bottom: solid;
+  border-color: #fdc12a;
+  text-align: left;
+  padding: 20px 20px 0 0;
+  font-size: 1.3rem;
+}
+.date{
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #0f406b;
+  color: #fdc12a;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+
+.checkbox{
+  margin-right: 10px;
+}
+
+#testimonies{
+  padding-bottom: 50px;
+}
+
+.carousel-item{
+  padding: 12% 12%;
+}
+.carousel-text{
+  color: #0f406b;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 70px;
+    width: 70px;
+    outline: black;
+    background-color: #838383;
+    background-size: 50%, 50%;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #0f406b;
+}
+
+
+/* FAQ Page */
+
+.FAQ-title{
+  color: #0f406b;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.FAQ-container{
+  padding: 7% 15%;
+  background-color: #bbe1fa;
+}
+
+.QA-container{
+  padding: 20px;
+}
+
+/* Events Page */
+
+
+.event-picture{
+width: 100%;
+}
+
+.event-box{
+padding: 30px;
+padding: 5% 7%;
+}
+
+.event-box-blue{
+padding: 30px;
+background-color: #bbe1fa;
+padding: 5% 7%;
+}
+
+
+/* Gallery Page */
+
+.collegemeetings{
+  padding: 3% 12%;
+  color:#0f406b;
+
+}
+
+.collegemeetings-blue{
+  padding: 3% 12%;
+  color:#0f406b;
+  background-color: #bbe1fa;
+}
+
+.collegemeeting-row{
+  padding-bottom: 50px;
+}
+.meeting-picture-box{
+  padding: 20px;
+}
+.meeting-picture{
+  width: 100%;
+}
+.trip-picture{
+  width: 78%;
+  margin: auto;
+}
+
+@keyframes slideBg {
+  0% {
+    background-image: url("../Images/CSUF-front.jpg");
+  }
+
+  100% {
+    background-image: url("../Images/ccc.jpg");
+  }
+
+}
+
+@media screen and (Max-width: 992px){
+  .sm-logo{
+    display: none;
+  }
+.menu-new{
+  border: none;
+}
+
+.menu{
+  text-align: center;
+}
+.menu-item{
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+
+}
