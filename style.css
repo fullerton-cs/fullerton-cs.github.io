@@ -300,32 +300,6 @@ height: 100%;
   padding: 20px;
 }
 
-
-
-/* Covid-19 Page */
-
-.covid-container{
-text-align: center;
-background-image: url("../Images/covid-img.jpeg");
-background-repeat: no-repeat;
-background-size: 100% 100%;
-padding: 5% 25%;
-margin-bottom: 30px;
-}
-.covid-title{
-color: #fff;
-padding-bottom: 30px;
-}
-.covid-word{
-font-size: 1.5rem;
-}
-.covid-video-box{
-  padding: 30px;
-}
-.covid-video-title{
-  padding: 20px 0 10px;
-}
-
 .video-iframe{
   border: 1px solid #eee;
   border-radius: 2px;
