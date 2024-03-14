@@ -142,14 +142,14 @@ padding:20px 0 50px;
   padding: 0;
 }
 .box-button-orange{
-  background-color: #ffa931;
+  background-color: #EE7F23;
   color: #fff;
   height: 30%;
   margin: 0;
   padding: 10px;
 }
 .box-button-orange:hover{
-  background-color: #febf63;
+  background-color: #ff9945;
 }
 .box-button-blue{
   background-color: #0f406b;
@@ -167,6 +167,7 @@ width: 100%;
 height: 100%;
 }
 .info-button{
+  font-size: large;
   width: 100%;
   height: 100%;
   color: #fff;
@@ -265,12 +266,14 @@ height: 100%;
 .ourfaith-box{
   padding: 20px;
 }
-#join-us{
-  padding: 3% 7%;
-}
-
 .submit-button{
   margin: 20px 0;
+}
+.contact-button {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: xx-large;
 }
 
 #follow-us{
