@@ -65,18 +65,10 @@ p{
 }
 
 
-.facebook{
-  background-image: url("../Images/facebook.png");
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 10px;
-}
 .instagram{
   background-image: url("../Images/instagram.png");
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -445,6 +437,16 @@ background-color: #bbe1fa;
 padding: 5% 7%;
 }
 
+.event-box-orange{
+padding: 30px;
+background-color: #EE7F23;
+padding: 1% 7%;
+color: white;
+}
+
+h4{
+margin-bottom: 0px;
+}
 
 /* Gallery Page */
 

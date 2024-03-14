@@ -65,14 +65,6 @@ p{
 }
 
 
-.facebook{
-  background-image: url("../Images/facebook.png");
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 10px;
-}
 .instagram{
   background-image: url("../Images/instagram.png");
   width: 30px;
