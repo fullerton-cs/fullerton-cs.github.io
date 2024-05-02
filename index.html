@@ -84,8 +84,13 @@
   </section>
 
   <section id="section2">
-    <div class="box-button-orange">
-      <a href="https://airtable.com/app4venkQDckqPyp3/shrNMp1sOjYeIsQQh"><button type="button" class="btn contact-button" >Connect With Us!</button></a>
+    <div class="centered-row">
+      <div class="box-button-orange">
+        <a href="https://airtable.com/app4venkQDckqPyp3/shrNMp1sOjYeIsQQh"><button type="button" class="btn contact-button" >Connect With Us!</button></a>
+      </div>
+      <div class="box-button-blue">
+        <a href="https://linktr.ee/fullerton_cs"><button type="button" class="btn contact-button" id="schedule-button">Schedule</button></a>
+      </div>
     </div>
     <p class="welcome-word">Fullerton Christians Students has been a registered student organization at both CSUF and at Fullerton College since 1976. We hold the faith that is common to all believers. Through daily prayer, Bible reading, and Christian fellowship we are growing in the grace and knowledge of our Lord and Savior Jesus Christ.</p>
     <p class="club-verse">But flee youthful lusts, and pursue righteousness, faith, love, peace with those who call on the Lord out of a pure heart. - 2 Tim. 2:22</p>
@@ -156,8 +161,10 @@
   <a href="https://www.instagram.com/fullerton_cs/"><img class="footer-logo" src="Images/instagram.png" alt="brand"></a>
 </section>
 
-  <script type="text/javascript" src="index.js">
-
+  <script type="text/javascript" src="index.js"></script>
+  <script>
+    var currentYear = new Date().getFullYear();
+    document.getElementById("schedule-button").innerHTML = currentYear + " Schedule";
   </script>
 </body>
 

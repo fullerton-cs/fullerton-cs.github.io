@@ -41,7 +41,7 @@ p{
 
 /* welcome */
 .brand-logo{
-  width: 180px;
+  width: 100px;
 }
 
 .logo-container{
@@ -161,7 +161,11 @@ padding:20px 0 50px;
 .box-button-blue:hover{
   background-color: #006699;
 }
-
+.centered-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .info-img{
 width: 100%;
 height: 100%;
@@ -481,7 +485,7 @@ margin-bottom: 0px;
 
 @keyframes slideBg {
   0% {
-    background-image: url("../Images/CSUF-front.jpg");
+    background-image: url("../Images/CSUF-front.webp");
   }
 
   100% {
