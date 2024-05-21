@@ -130,7 +130,7 @@
 
 
           <div class="box-img">
-            <img class="info-img" src="Images/cc.jpeg" alt="Events">
+            <img class="info-img" src="Images/cc.webp" alt="Events">
           </div>
 
           <div class="box-button-blue">
@@ -145,7 +145,7 @@
 
 <section id="homepage-video">
   <div class="embed-responsive embed-responsive-16by9 video-iframe">
-    <div id="index-video"></div>
+    <iframe loading="lazy" class="embed-responsive-item " width="560" height="315" src="https://www.youtube.com/embed/cyI8XvcaA40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>
 
@@ -163,13 +163,6 @@
   <script>
     var currentYear = new Date().getFullYear();
     document.getElementById("schedule-button").innerHTML = currentYear + " Schedule";
-    
-    var player;
-    function onYouTubeIframeAPIReady () {
-      player = new YT.Player('index-video', {
-        videoId: 'cyI8XvcaA40',
-      });
-    }
   </script>
 </body>
 
