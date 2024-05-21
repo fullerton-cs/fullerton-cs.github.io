@@ -25,7 +25,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+  <script src="https://www.youtube.com/iframe_api"></script>
   <!-- FontAwesome -->
   <!-- <script src="https://kit.fontawesome.com/04afecf412.js"></script> -->
   <script src="https://use.fontawesome.com/145d90b98a.js"></script>
@@ -86,14 +86,14 @@
       <div class="col-lg-6 welcome-video-box">
         <h4>California State University at Fullerton</h4>
         <div class="embed-responsive embed-responsive-16by9 video-iframe">
-          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/-9cZx09oEyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div id="csuf-video"></div>
         </div>
       </div>
 
       <div class="col-lg-6 welcome-video-box">
         <h4>Fullerton College</h4>
         <div class="embed-responsive embed-responsive-16by9 video-iframe">
-          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/9tlJbGZsJkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div id="fc-video"></div>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/u3tOmLti8M8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div id="kat-video"></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="carousel-text"><strong>Kat, CSUF</strong></h5>
@@ -141,7 +141,7 @@
 
           <div class="carousel-item">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/m1wClImMj7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div id="james-video"></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="carousel-text"><strong>James, CSUF</strong></h5>
@@ -151,7 +151,7 @@
 
           <div class="carousel-item">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/GhgmLIcODXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div id="steph-video"></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="carousel-text"><strong>Stephanie, FC</strong></h5>
@@ -161,7 +161,7 @@
 
           <div class="carousel-item video-box">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Sa04xyD3SD0" l frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div id="ezek-video"></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="carousel-text"><strong>Ezekiel, CSUF</strong></h5>
@@ -197,6 +197,35 @@
         document.getElementById("incoming-students-header").innerText = headerText;
       });
     </script>
+
+  <script>
+    var player;
+    var player2;
+    var player3;
+    var player4;
+    var player5;
+    var player6;
+    function onYouTubeIframeAPIReady () {
+      player = new YT.Player('csuf-video', {
+        videoId: '-9cZx09oEyU',
+      });
+      player2 = new YT.Player('fc-video', {
+        videoId: '9tlJbGZsJkM',
+      });
+      player3 = new YT.Player('kat-video', {
+        videoId: 'u3tOmLti8M8',
+      });
+      player4 = new YT.Player('james-video', {
+        videoId: 'm1wClImMj7A',
+      });
+      player5 = new YT.Player('steph-video', {
+        videoId: 'GhgmLIcODXk',
+      });
+      player6 = new YT.Player('ezek-video', {
+        videoId: 'Sa04xyD3SD0',
+      });
+    }
+  </script>
 </body>
 
 </html>
